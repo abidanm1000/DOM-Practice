@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217,54%,11%);
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    /* border: coral solid 1px; */
+    width: 275px;
+    height: 495px;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;    
+    transition: all 500ms ease;
+    filter: blur(2.5px);
+    box-shadow: 1px 1px 3px 1px black;
+}
+
+.container:hover {
+    transform: translateY(-10px);
+    background-color: hsl(216, 50%, 10%);
+    cursor: pointer;
+    filter: blur(0);
+    box-shadow: 2px 2px 10px 1px black;
+}
+
+.container:active {
+    background-color: hsl(215, 26%, 23%);
+}
+
+.image-container {
+    /* border: coral 1px solid; */
+    height: 280px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#equilibrium {
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.content {
+    /* border: coral 1px solid; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+    height: 150px;
+}
+
+.content p {
+    color: rgb(172, 165, 165);
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ethereum, .days {
+    display: flex;
+}
+
+.ethereum img, .days img {
+    padding-right: 10px;
+    width: auto;
+    height: 20px;
+}
+
+.ethereum p {
+    color: white;
+    font-size: 16px;
+}
+
+.days p {
+    font-size: 16px;
+}
+
+hr {
+    width: 90%;
+    background-color: rgb(172, 165, 165);
+    border: none;
+    height: 1px;
+}
+
+.creator {
+    /* border: coral 1px solid; */
+    display: flex;
+    padding-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 240px;
+}
+
+.creator img {
+    width: auto;
+    height: 30px;
+    border: white solid 1px;
+    border-radius: 50%;
+}
+
+.creator p {
+    padding-left: 10px;
+    color: hsl(217,54%,11%);
+}
+
+#owner {
+    color: white;
+}
