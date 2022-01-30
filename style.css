@@ -123,3 +123,21 @@ hr {
 #owner {
     color: white;
 }
+
+#toggle {
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: hsl(215, 26%, 23%);
+    color: white;
+    transition: all 300ms ease;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#toggle:hover {
+    background-color: white;
+    color: hsl(215, 26%, 23%);
+}
